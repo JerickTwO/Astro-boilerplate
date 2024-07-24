@@ -1,7 +1,8 @@
 export const AppConfig = {
-  site_name: 'Astro boilerplate',
-  title: 'Astro boilerplate',
-  description: 'Boilerplate built with Astro using React and Tailwind CSS',
+  site_name: 'Portafolio - Eduardo Benalcazar 3roA"INF"',
+  title: 'Portafolio',
+  description:
+    'Este es el portafolio de Eduardo Benalcazar un estudiante de informática en la Unidad Educativa Alessandro Vola',
   author: 'Emma',
   locale_region: 'en-us',
   locale: 'en',

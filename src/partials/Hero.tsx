@@ -10,7 +10,7 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Hola, mi nombre es <GradientText>Eduardo</GradientText> 👋
         </>
       }
       description={
@@ -27,22 +27,22 @@ const Hero = () => (
         </>
       }
       avatar={
-        <img
-          className="h-80 w-64"
-          src="/assets/images/avatar.svg"
-          alt="Avatar image"
-          loading="lazy"
-        />
+        <div className="relative h-[400px] w-[300px]">
+          <img
+            className="h-full w-full object-cover"
+            src="./perfil1-removebg.png"
+            alt="Eduardo Benalcazar"
+            loading="lazy"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900"></div>
+        </div>
       }
       socialButtons={
         <>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/twitter-icon.png"
-              alt="Twitter icon"
-            />
-          </a>
-          <a href="/">
+          <a
+            href="https://web.facebook.com/eduardo.benalcazar.900"
+            target="_blank"
+          >
             <HeroSocial
               src="/assets/images/facebook-icon.png"
               alt="Facebook icon"
@@ -52,12 +52,6 @@ const Hero = () => (
             <HeroSocial
               src="/assets/images/linkedin-icon.png"
               alt="Linkedin icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/youtube-icon.png"
-              alt="Youtube icon"
             />
           </a>
         </>

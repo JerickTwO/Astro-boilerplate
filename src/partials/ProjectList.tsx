@@ -16,7 +16,7 @@ const ProjectList = () => (
   >
     <div className="flex flex-col gap-6">
       <Project
-        name="Project 1"
+        name="Proyecto 1 - Portafolio"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
         bibendum. Nunc non posuere consectetur, justo erat semper enim, non
         hendrerit dui odio id enim."
@@ -35,7 +35,7 @@ const ProjectList = () => (
         }
       />
       <Project
-        name="Project 2"
+        name="Proyecto 2 - Tarjeta "
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
         bibendum. Nunc non posuere consectetur, justo erat semper enim, non
         hendrerit dui odio id enim."
@@ -43,14 +43,13 @@ const ProjectList = () => (
         img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>Next.js</Tags>
-            <Tags color={ColorTags.EMERALD}>Blog</Tags>
-            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+            <Tags color={ColorTags.VIOLET}>HTML</Tags>
+            <Tags color={ColorTags.EMERALD}>CSS</Tags>
           </>
         }
       />
       <Project
-        name="Project 3"
+        name="Proyecto 3 - Juego de Snake"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
         bibendum. Nunc non posuere consectetur, justo erat semper enim, non
         hendrerit dui odio id enim."
@@ -58,9 +57,8 @@ const ProjectList = () => (
         img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.FUCHSIA}>Python</Tags>
+            <Tags color={ColorTags.INDIGO}>Pygame</Tags>
           </>
         }
       />
